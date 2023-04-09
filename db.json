@@ -1,0 +1,269 @@
+{
+
+  "filmes": [
+    {
+      "nome": "O Poderoso Chefão",
+      "genero": "Drama",
+      "autor": "Francis Ford Coppola",
+      "ano_lancamento": 1972
+    },
+    {
+      "nome": "Forrest Gump",
+      "genero": "Drama",
+      "autor": "Robert Zemeckis",
+      "ano_lancamento": 1994
+    },
+    {
+      "nome": "Matrix",
+      "genero": "Ficção Científica",
+      "autor": "Lana Wachowski, Lilly Wachowski",
+      "ano_lancamento": 1999
+    },
+    {
+      "nome": "Jurassic Park",
+      "genero": "Aventura",
+      "autor": "Steven Spielberg",
+      "ano_lancamento": 1993
+    },
+    {
+      "nome": "O Senhor dos Anéis: A Sociedade do Anel",
+      "genero": "Fantasia",
+      "autor": "Peter Jackson",
+      "ano_lancamento": 2001
+    },
+    {
+      "nome": "Pulp Fiction",
+      "genero": "Drama",
+      "autor": "Quentin Tarantino",
+      "ano_lancamento": 1994
+    },
+    {
+      "nome": "Star Wars: Episódio IV - Uma Nova Esperança",
+      "genero": "Ficção Científica",
+      "autor": "George Lucas",
+      "ano_lancamento": 1977
+    },
+    {
+      "nome": "Tubarão",
+      "genero": "Terror",
+      "autor": "Steven Spielberg",
+      "ano_lancamento": 1975
+    },
+    {
+      "nome": "O Exorcista",
+      "genero": "Terror",
+      "autor": "William Friedkin",
+      "ano_lancamento": 1973
+    },
+    {
+      "nome": "Os Caçadores da Arca Perdida",
+      "genero": "Aventura",
+      "autor": "Steven Spielberg",
+      "ano_lancamento": 1981
+    },
+    {
+      "nome": "A Lista de Schindler",
+      "genero": "Drama",
+      "autor": "Steven Spielberg",
+      "ano_lancamento": 1993
+    },
+    {
+      "nome": "De Volta para o Futuro",
+      "genero": "Ficção Científica",
+      "autor": "Robert Zemeckis",
+      "ano_lancamento": 1985
+    },
+    {
+      "nome": "Os Suspeitos",
+      "genero": "Suspense",
+      "autor": "Bryan Singer",
+      "ano_lancamento": 1995
+    },
+    {
+      "nome": "O Silêncio dos Inocentes",
+      "genero": "Suspense",
+      "autor": "Jonathan Demme",
+      "ano_lancamento": 1991
+    },
+    {
+      "nome": "O Iluminado",
+      "genero": "Terror",
+      "autor": "Stanley Kubrick",
+      "ano_lancamento": 1980
+    },
+    {
+      "nome": "Os Incríveis",
+      "genero": "Animação",
+      "autor": "Brad Bird",
+      "ano_lancamento": 2004
+    },
+    {
+      "nome": "Os Intocáveis",
+      "genero": "Ação",
+      "autor": "Brian De Palma",
+      "ano_lancamento": 1987
+    },
+    {
+      "nome": "O Rei Leão",
+      "genero": "Animação",
+      "autor": "Roger Allers, Rob Minkoff",
+      "ano_lancamento": 1994
+    },
+    {
+      "nome": "O Exterminador do Futuro 2: O Julgamento Final",
+      "genero": "Ficção Científica",
+      "autor": "James Cameron",
+      "ano_lancamento": 1991
+    },
+    {
+      "nome": "O Grande Lebowski",
+      "genero": "Comédia",
+      "autor": "Joel Coen, Ethan Coen",
+      "ano_lancamento": 1998
+    },
+    {
+      "nome": "O Show de Truman: O Show da Vida",
+      "genero": "Drama",
+      "autor": "Peter Weir",
+      "ano_lancamento": 1998
+    },
+    {
+      "nome": "Os Sete Samurais",
+      "genero": "Ação",
+      "autor": "Akira Kurosawa",
+      "ano_lancamento": 1954
+    },
+    {
+      "nome": "Os Caça-Fantasmas",
+      "genero": "Comédia",
+      "autor": "Ivan Reitman",
+      "ano_lancamento": 1984
+    },
+    {
+      "nome": "O Senhor dos Anéis: O Retorno do Rei",
+      "genero": "Fantasia",
+      "autor": "Peter Jackson",
+      "ano_lancamento": 2003
+    },
+    {
+      "nome": "Os Vingadores",
+      "genero": "Ação",
+      "autor": "Joss Whedon",
+      "ano_lancamento": 2012
+    },
+    {
+      "nome": "Planeta dos Macacos: A Origem",
+      "genero": "Ficção Científica",
+      "autor": "Rupert Wyatt",
+      "ano_lancamento": 2011
+    },
+    {
+      "nome": "Psicose",
+      "genero": "Terror",
+      "autor": "Alfred Hitchcock",
+      "ano_lancamento": 1960
+    },
+    {
+      "nome": "Pulp Fiction",
+      "genero": "Drama",
+      "autor": "Quentin Tarantino",
+      "ano_lancamento": 1994
+    },
+    {
+      "nome": "Ratatouille",
+      "genero": "Animação",
+      "autor": "Brad Bird",
+      "ano_lancamento": 2007
+    },
+    {
+      "nome": "Gladiador",
+      "genero": "Ação",
+      "autor": "Ridley Scott",
+      "ano_lancamento": 2000
+    },
+    {
+      "nome": "Rocky, Um Lutador",
+      "genero": "Drama",
+      "autor": "John G. Avildsen",
+      "ano_lancamento": 1976
+    },
+    {
+      "nome": "Scarface",
+      "genero": "Crime",
+      "autor": "Brian De Palma",
+      "ano_lancamento": 1983
+    },
+    {
+      "nome": "Sinais",
+      "genero": "Ficção Científica",
+      "autor": "M. Night Shyamalan",
+      "ano_lancamento": 2002
+    },
+    {
+      "nome": "Star Wars: Episódio IV - Uma Nova Esperança",
+      "genero": "Ficção Científica",
+      "autor": "George Lucas",
+      "ano_lancamento": 1977
+    },
+    {
+      "nome": "Star Wars: Episódio V - O Império Contra-Ataca",
+      "genero": "Ficção Científica",
+      "autor": "Irvin Kershner",
+      "ano_lancamento": 1980
+    },
+    {
+      "nome": "Star Wars: Episódio VI - O Retorno de Jedi",
+      "genero": "Ficção Científica",
+      "autor": "Richard Marquand",
+      "ano_lancamento": 1983
+    },
+    {
+      "nome": "Star Wars: Episódio VII - O Despertar da Força",
+      "genero": "Ficção Científica",
+      "autor": "J.J. Abrams",
+      "ano_lancamento": 2015
+    },
+    {
+      "nome": "Star Wars: Episódio VIII - Os Últimos Jedi",
+      "genero": "Ficção Científica",
+      "autor": "Rian Johnson",
+      "ano_lancamento": 2017
+    },
+    {
+      "nome": "Star Wars: Episódio IX - A Ascensão Skywalker",
+      "genero": "Ficção Científica",
+      "autor": "J.J. Abrams",
+      "ano_lancamento": 2019
+    },
+    {
+      "nome": "Taxi Driver",
+      "genero": "Drama",
+      "autor": "Martin Scorsese",
+      "ano_lancamento": 1976
+    },
+    {
+      "nome": "Tubarão",
+      "genero": "Terror",
+      "autor": "Steven Spielberg",
+      "ano_lancamento": 1975
+    },
+    {
+      "nome": "Um Corpo que Cai",
+      "genero": "Suspense",
+      "autor": "Alfred Hitchcock",
+      "ano_lancamento": 1958
+    },
+    {
+      "nome": "Um Sonho de Liberdade",
+      "genero": "Drama",
+      "autor": "Frank Darabont",
+      "ano_lancamento": 1994
+    },
+    {
+      "nome": "V de Vingança",
+      "genero": "Ação",
+      "autor": "James McTeigue",
+      "ano_lancamento": 2005
+    }
+  ]
+}

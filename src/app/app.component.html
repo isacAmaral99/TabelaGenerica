@@ -1,0 +1,4 @@
+<div *ngIf="tabela$ | async as novaTabela" class="tabela">
+
+  <app-tabela [dados]="dados" [colunas]="colunas" (editar)="editar($event)" (excluir)="excluir($event)"   ></app-tabela>
+</div>
