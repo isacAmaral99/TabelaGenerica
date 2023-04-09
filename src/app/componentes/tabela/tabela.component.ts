@@ -16,6 +16,10 @@ export class TabelaComponent implements OnInit {
   @Input() colunas!: {nome: string, campo: string}[];
   @Input() dados!: any;
 
+  @Input() permiteAlterar: boolean =true;
+  @Input() permiteExcluir:  boolean =true;
+
+
   @Input() exibirAcoes?: boolean =true;
   @Output() editar = new EventEmitter<any>();
   @Output() excluir = new EventEmitter<any>();

@@ -10,10 +10,10 @@
       <ng-container matColumnDef="acoes">
         <th style="width: 150px;" mat-header-cell class="text-center custom-table-header" *matHeaderCellDef>Ações</th>
         <td style="width: 150px;" mat-cell class="text-center custom-table-cell" *matCellDef="let elemento">
-          <button mat-icon-button matTooltip="Editar" (click)="_editar(elemento)">
+          <button mat-icon-button matTooltip="Editar" *ngIf="permiteAlterar" (click)="_editar(elemento)">
             <mat-icon>edit</mat-icon>
           </button>
-          <button mat-icon-button mat-icon-button color="warn" matTooltip="Deletar" (click)="_excluir(elemento)">
+          <button mat-icon-button mat-icon-button color="warn" matTooltip="Deletar"  *ngIf="permiteExcluir"(click)="_excluir(elemento)">
             <mat-icon>delete</mat-icon>
           </button>
         </td>
