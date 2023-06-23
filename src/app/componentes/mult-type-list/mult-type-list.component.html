@@ -1,0 +1,10 @@
+<div>
+  <mat-form-field appearance="fill">
+    <mat-label>Opções</mat-label>
+    <mat-select  #select (closed)="fechado()"  [(ngModel)]="opcoesSelecionadasList" [multiple]="multiSelect" >
+      <mat-option *ngFor="let opcao of opcoes" [value]="opcao" (click)="emitirOpcoesSelecionadas(opcao)">
+        {{ opcao.nome }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+</div>

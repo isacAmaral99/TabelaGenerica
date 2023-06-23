@@ -1,4 +1,27 @@
-<div *ngIf="tabela$ | async as novaTabela" class="tabela">
+<div>
+  <h4>
+    Componente de Lista
+  </h4>
+  <p>
+    esse componente foi criado para que possa ser reutilizado em diversas paginas,
+    ele vai ter uma opçao dele ser multselect ou nao, e metodos para emitir o valor selecionado.
+  </p>
+  <app-mult-type-list (comboFechado)="statusCombo($event)" [multiSelect]="true" [opcoes]="[
+  { id: 1, nome: 'Opção 1' },
+  { id: 2, nome: 'Opção 2' },
+  { id: 3, nome: 'Opção 3' }
+]" (opcoesSelecionadas)="receberOpcoesSelecionadas2($event)"></app-mult-type-list>
 
-  <app-tabela [dados]="dados" [colunas]="colunas" (editar)="editar($event)" (excluir)="excluir($event)"   ></app-tabela>
+<app-mult-type-list (comboFechado)="statusCombo2($event)" [multiSelect]="false" [opcoes]="[
+  { id: 1, nome: 'Opção 1' },
+  { id: 2, nome: 'Opção 2' },
+  { id: 3, nome: 'Opção 3' }
+]" (opcoesSelecionadas)="receberOpcoesSelecionadas22($event)"></app-mult-type-list>
+
+<div *ngIf="opcesSelectSecond.value.length > 0">
+<h1>deu certo</h1>
 </div>
+
+</div>
+
+

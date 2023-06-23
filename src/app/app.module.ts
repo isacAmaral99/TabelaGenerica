@@ -43,9 +43,11 @@ import { AppComponent } from './app.component';
 import { TabelaComponent } from './componentes/tabela/tabela.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
+import { MultTypeListComponent } from './componentes/mult-type-list/mult-type-list.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
-  declarations: [AppComponent, TabelaComponent],
+  declarations: [AppComponent, TabelaComponent, MultTypeListComponent],
   imports: [
     HttpClientModule,
     BrowserModule,
@@ -88,6 +90,8 @@ import { HttpClientModule } from '@angular/common/http';
     MatToolbarModule,
     MatTooltipModule,
     MatTreeModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent],
